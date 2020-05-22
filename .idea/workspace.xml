@@ -86,7 +86,7 @@
       <workItem from="1590132660276" duration="206000" />
       <workItem from="1590134173088" duration="1765000" />
       <workItem from="1590141738588" duration="409000" />
-      <workItem from="1590142174199" duration="22431000" />
+      <workItem from="1590142174199" duration="23346000" />
     </task>
     <task id="LOCAL-00001" summary="created avatar;&#10;fixed welcome text;&#10;TODO: validate function">
       <created>1590161778072</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590181764263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="readded config file">
+      <created>1590182115313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590182115313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,13 +139,14 @@
     <MESSAGE value="created avatar;&#10;fixed welcome text;&#10;TODO: validate function" />
     <MESSAGE value="added build folder" />
     <MESSAGE value="added config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added config file" />
+    <MESSAGE value="readded config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="readded config file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590181763594">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590182114789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590181763594" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590182114789" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1590091325980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,10 +175,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590091338344" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590181768392">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590182121391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590181768392" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590182121391" />
     <state x="678" y="312" key="git4idea.merge.GitPullDialog" timestamp="1590178201221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

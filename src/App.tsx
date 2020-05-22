@@ -7,6 +7,7 @@ import {createDirectLine, createStore, createStyleSet} from "botframework-webcha
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import botAvatar from './resource/Bot-IMG.png';
+import * as path from "path";
 
 
 
@@ -39,7 +40,6 @@ const userName = 'user123';
          fontFamily : "Noto Sans CJK",
          fontSize: 20,
      }
-
 
 
      return (
@@ -84,7 +84,7 @@ const userName = 'user123';
                      <div style={{height: 720}}>
                          <ReactWebChat directLine={directLine3} bot={{id: 'bot-id', name: 'bot-name'}}
                                        user={{id: 'user-id', name: 'user name'}} preSend={sendWelcome()} before={alert()}
-                                       resize="detect" styleOptions={styleOptions}   />
+                                       resize="detect" styleOptions={styleOptions} />
                      </div>
 
 
@@ -111,7 +111,7 @@ const userName = 'user123';
      }
  }
 
-
+// App.get('*', (req, res) => { res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html')); });
 
 export default App;
 
