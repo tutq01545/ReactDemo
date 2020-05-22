@@ -73,7 +73,7 @@ const Home= () => {
                     </div>
 
 
-                    <div style={{height: 720}}>
+                    <div style={{height: 500}}>
                         <ReactWebChat directLine={directLine3} bot={{id: 'bot-id', name: 'bot-name'}}
                                       user={{id: 'user-id', name: 'user name'}} preSend={sendWelcome()} before={alert()}
                                       resize="detect" styleOptions={styleOptions} />
