@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c474c528-d8dd-48c8-98ac-cd7ba58468e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resource/Bot-IMG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/KPMGlogo2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resource" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,27 +38,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="ts.external.directory.path" value="C:\Users\quangtienvu\WebstormProjects\ChatApp\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\PC-Tien\WebstormProjects\ReactDemo\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC-Tien\WebstormProjects\ReactDemo\src\resource" />
+      <recent name="C:\Users\PC-Tien\WebstormProjects\chatwithazure\src\resource" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC-Tien\WebstormProjects\chatwithazure\src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PC-Tien\WebstormProjects\chatwithazure\src\resource" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -96,6 +87,8 @@
       <workItem from="1590094481050" duration="706000" />
       <workItem from="1590132660276" duration="206000" />
       <workItem from="1590134173088" duration="1765000" />
+      <workItem from="1590141738588" duration="409000" />
+      <workItem from="1590142174199" duration="17829000" />
     </task>
     <servers />
   </component>
@@ -116,6 +109,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590152697315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590152697315" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1590091325980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,22 +121,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590091363679" />
-    <state width="1899" height="165" key="GridCell.Tab.0.bottom" timestamp="1590088529565">
+    <state width="949" height="165" key="GridCell.Tab.0.bottom" timestamp="1590155206785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590088529565" />
-    <state width="1899" height="165" key="GridCell.Tab.0.center" timestamp="1590088529565">
+    <state width="949" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590155206785" />
+    <state width="949" height="165" key="GridCell.Tab.0.center" timestamp="1590155206785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590088529565" />
-    <state width="1899" height="165" key="GridCell.Tab.0.left" timestamp="1590088529565">
+    <state width="949" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590155206785" />
+    <state width="949" height="165" key="GridCell.Tab.0.left" timestamp="1590155206785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590088529565" />
-    <state width="1899" height="165" key="GridCell.Tab.0.right" timestamp="1590088529565">
+    <state width="949" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590155206785" />
+    <state width="949" height="165" key="GridCell.Tab.0.right" timestamp="1590155206785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590088529565" />
+    <state width="949" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590155206785" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1590091338344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

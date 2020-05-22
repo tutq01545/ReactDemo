@@ -1,9 +1,13 @@
-import React, {useMemo} from 'react';
+import React from 'react';
 import './App.css';
 import ReactWebChat from 'botframework-webchat';
-import {DirectLine} from 'botframework-directlinejs';
+import logo from './resource/KPMGlogo2.jpg'
 import * as ReactBootStrap from 'react-bootstrap';
-import {createDirectLine} from "botframework-webchat/lib";
+import {createDirectLine, createStyleSet} from "botframework-webchat/lib";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import botAvatar from './resource/Bot-IMG.png';
+
 
 
 
@@ -11,61 +15,100 @@ import {createDirectLine} from "botframework-webchat/lib";
 //credentials used to connect to Azure Bot
 const UID  = 'chatbot-9e18';
 const myToken = 'jx-n0cBNB1k.ByZKqNYxBJPxEHAVhSt1zBuitgd2P4tTSEa7pI6zRHM';
-
+const userName = 'user123';
 
 
 
  function App() {
 
-     const mydirectLine  = useMemo(() => createDirectLine({token: myToken}),[]);
-
-   return (
-      <div>
-
-        <div style={{height:200}}>
-            <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
-                <ReactBootStrap.Navbar.Brand href="#home"  >
-                    <img
-                        src={require("C:\\Users\\quangtienvu\\WebstormProjects\\ChatApp\\src\\resource\\KPMGlogo.png")}
-                        width="70"
-                        height="50"
-                        className="d-inline-block align-top"
-                        alt=" "
-                   ></img>
-                </ReactBootStrap.Navbar.Brand>
-                <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
-                    <ReactBootStrap.Nav className="mr-auto">
-                        <ReactBootStrap.Nav.Link href="#features">Features</ReactBootStrap.Nav.Link>
-                        <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link>
-                        <ReactBootStrap.NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <ReactBootStrap.NavDropdown.Item href="#action/3.1">Action</ReactBootStrap.NavDropdown.Item>
-                            <ReactBootStrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootStrap.NavDropdown.Item>
-                            <ReactBootStrap.NavDropdown.Item href="#action/3.3">Something</ReactBootStrap.NavDropdown.Item>
-                            <ReactBootStrap.NavDropdown.Divider />
-                            <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item>
-                        </ReactBootStrap.NavDropdown>
-                    </ReactBootStrap.Nav>
-                    <ReactBootStrap.Nav>
-                        <ReactBootStrap.Nav.Link href="#deets">Dev Team</ReactBootStrap.Nav.Link>
-                        <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-                            Big Project
-                        </ReactBootStrap.Nav.Link>
-                    </ReactBootStrap.Nav>
-                </ReactBootStrap.Navbar.Collapse>
-            </ReactBootStrap.Navbar>
-
-        </div>
+     var directLineUser = {
+         id: 'user-id',
+         name: 'user name',
+     }
+     const directLine3 = createDirectLine({token: myToken, user: directLineUser});
 
 
-          <div style={{height: 500}}>
-              <ReactWebChat directLine={mydirectLine} userID={'tien'} />
-          </div>
+     const styleOptions = {
+         botAvatarImg : botAvatar,
+         botAvatarInitials: 'BOT',
+         userAvatarInitials: 'US',
+         hideUploadButton: true,
+     }
+
+     const homeButtonStyle = {
+         fontFamily : "Noto Sans CJK",
+         fontSize: 20,
+     }
+
+     return (
+         <Row>
+             <Col style={{backgroundColor: '#0091DA'}}></Col>
+             <Col xl={8} style={{padding: 0}}>
+                 <div>
+
+                     <div style={{height: 200}}>
+
+                         <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D'}}>
+
+                             <ReactBootStrap.Nav.Link  href="#Home" style={homeButtonStyle}>
+                                 KPMG Chatbot
+                             </ReactBootStrap.Nav.Link>
+                             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+                                 <ReactBootStrap.Nav className="mr-auto">
+
+                                 </ReactBootStrap.Nav>
+                                 <ReactBootStrap.Nav>
 
 
-      </div>
-  );
-}
+                                     <ReactBootStrap.Navbar.Brand href="#home">
+                                         <img
+                                             src={logo}
+                                             width="70"
+                                             height="50"
+                                             className="d-inline-block align-top"
+                                             alt=" "
+                                             style={{backgroundColor: 'rgba(0,0,0,0.5)'}}
+                                         ></img>
+                                     </ReactBootStrap.Navbar.Brand>
+                                 </ReactBootStrap.Nav>
+                             </ReactBootStrap.Navbar.Collapse>
+                         </ReactBootStrap.Navbar>
+
+
+                     </div>
+
+
+                     <div style={{height: 720}}>
+                         <ReactWebChat directLine={directLine3} bot={{id: 'bot-id', name: 'bot-name'}}
+                                       user={{id: 'user-id', name: 'user name'}} preSend={sendWelcome()} before={alert()}
+                                       resize="detect" styleOptions={styleOptions}   />
+                     </div>
+
+
+                 </div>
+             </Col>
+             <Col style={{backgroundColor: '#0091DA'}}></Col>
+         </Row>
+
+     );
+
+     function sendWelcome() {
+         directLine3.postActivity({
+             from: directLineUser,
+             name: 'directline/join',
+             type: 'event',
+             value: ''
+         }).subscribe(function () {
+             console.log("trigger requestWelcomeDialog");
+         })
+
+     }
+     function alert(){
+         console.log("sent to server");
+     }
+ }
+
 
 
 export default App;
