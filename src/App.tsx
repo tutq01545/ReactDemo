@@ -3,7 +3,7 @@ import './App.css';
 import ReactWebChat from 'botframework-webchat';
 import logo from './resource/KPMGlogo2.jpg'
 import * as ReactBootStrap from 'react-bootstrap';
-import {createDirectLine, createStyleSet} from "botframework-webchat/lib";
+import {createDirectLine, createStore, createStyleSet} from "botframework-webchat/lib";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import botAvatar from './resource/Bot-IMG.png';
@@ -39,6 +39,8 @@ const userName = 'user123';
          fontFamily : "Noto Sans CJK",
          fontSize: 20,
      }
+
+     
 
      return (
          <Row>
