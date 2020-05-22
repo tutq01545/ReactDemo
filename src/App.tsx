@@ -40,7 +40,7 @@ const userName = 'user123';
          fontSize: 20,
      }
 
-     
+
 
      return (
          <Row>
