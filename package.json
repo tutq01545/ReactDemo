@@ -48,7 +48,7 @@
     "babel-preset-react": "^6.24.1"
   },
   "engines": {
-    "node": "12.16.1"
+    "node": "12.15.0"
   },
   "homepage": "."
 }
