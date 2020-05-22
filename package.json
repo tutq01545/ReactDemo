@@ -44,5 +44,9 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-react": "^6.24.1"
-  }
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "homepage": "."
 }
