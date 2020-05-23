@@ -1,6 +1,6 @@
 {
   "name": "chatwithazure",
-  "homepage": "https://demochatbot-1.azurewebsites.net/"
+  "homepage": "https://demochatbot-1.azurewebsites.net/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
