@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import ReactWebChat from 'botframework-webchat';
-import logo from '../resource/KPMGlogo2.jpg'
+import logo from '../resource/KPMGlogo.png'
 import * as ReactBootStrap from 'react-bootstrap';
 import {createDirectLine} from "botframework-webchat/lib";
 import Row from "react-bootstrap/Row";
@@ -30,6 +30,8 @@ const Home= () => {
     const homeButtonStyle = {
         fontFamily : "Noto Sans CJK",
         fontSize: 20,
+        marginLeft: 20,
+        color: 'white'        
     }
 
 
@@ -40,13 +42,13 @@ const Home= () => {
             <Col xl={8} style={{padding: 0}}>
                 <div>
 
-                    <div style={{height: 200}}>
+                    <div style={{height: 100}}>
 
                         <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D'}}>
 
-                            <ReactBootStrap.Nav.Link  href="#Home" style={homeButtonStyle}>
+                            <ReactBootStrap.Nav.Item  style={homeButtonStyle}>
                                 KPMG Chatbot
-                            </ReactBootStrap.Nav.Link>
+                            </ReactBootStrap.Nav.Item>
                             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                 <ReactBootStrap.Nav className="mr-auto">
@@ -55,14 +57,13 @@ const Home= () => {
                                 <ReactBootStrap.Nav>
 
 
-                                    <ReactBootStrap.Navbar.Brand href="#brand">
+                                    <ReactBootStrap.Navbar.Brand>
                                         <img
                                             src={logo}
-                                            width="70"
+                                            width="121"
                                             height="50"
                                             className="d-inline-block align-top"
-                                            alt=" "
-                                            style={{backgroundColor: 'rgba(0,0,0,0.5)'}}
+                                            alt=" "                                           
                                         ></img>
                                     </ReactBootStrap.Navbar.Brand>
                                 </ReactBootStrap.Nav>
@@ -73,7 +74,7 @@ const Home= () => {
                     </div>
 
 
-                    <div style={{height: 500}}>
+                    <div style={{height: 620}}>
                         <ReactWebChat directLine={directLine3} bot={{id: 'bot-id', name: 'bot-name'}}
                                       user={{id: 'user-id', name: 'user name'}} preSend={sendWelcome()} before={alert()}
                                       resize="detect" styleOptions={styleOptions} />
