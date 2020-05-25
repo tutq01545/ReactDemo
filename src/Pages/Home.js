@@ -47,7 +47,7 @@ const Home= () => {
                         <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D'}}>
 
                             <ReactBootStrap.Nav.Item  style={homeButtonStyle}>
-                                KPMG Chatbot
+                                KPMG Virtual Assistance
                             </ReactBootStrap.Nav.Item>
                             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
