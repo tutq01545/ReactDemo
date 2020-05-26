@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../App.css';
 import ReactWebChat from 'botframework-webchat';
-import logo from '../resource/KPMGlogo.png'
 import * as ReactBootStrap from 'react-bootstrap';
 import {createDirectLine} from "botframework-webchat/lib";
 import Row from "react-bootstrap/Row";

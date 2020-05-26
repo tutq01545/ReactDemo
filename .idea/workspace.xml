@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c474c528-d8dd-48c8-98ac-cd7ba58468e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.d401eca3f9274e610bed7e9c9041440c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.e40dc53d.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.e40dc53d.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.c1c8fbf6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.c1c8fbf6.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.c1c8fbf6.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.716d460a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.716d460a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.f616cac1.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/runtime-main.f616cac1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +86,7 @@
       <workItem from="1590134173088" duration="1765000" />
       <workItem from="1590141738588" duration="409000" />
       <workItem from="1590142174199" duration="23346000" />
-      <workItem from="1590478842506" duration="1754000" />
+      <workItem from="1590478842506" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="created avatar;&#10;fixed welcome text;&#10;TODO: validate function">
       <created>1590161778072</created>
@@ -168,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590091363679" />
-    <state width="1899" height="233" key="GridCell.Tab.0.bottom" timestamp="1590480206403">
+    <state width="1899" height="233" key="GridCell.Tab.0.bottom" timestamp="1590481596984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590480206403" />
-    <state width="1899" height="233" key="GridCell.Tab.0.center" timestamp="1590480206403">
+    <state width="1899" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590481596984" />
+    <state width="1899" height="233" key="GridCell.Tab.0.center" timestamp="1590481596984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590480206403" />
-    <state width="1899" height="233" key="GridCell.Tab.0.left" timestamp="1590480206403">
+    <state width="1899" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590481596984" />
+    <state width="1899" height="233" key="GridCell.Tab.0.left" timestamp="1590481596984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590480206403" />
-    <state width="1899" height="233" key="GridCell.Tab.0.right" timestamp="1590480206403">
+    <state width="1899" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590481596984" />
+    <state width="1899" height="233" key="GridCell.Tab.0.right" timestamp="1590481596984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590480206403" />
+    <state width="1899" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590481596984" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1590091338344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

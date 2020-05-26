@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.a7beee22.chunk.css",
-    "main.js": "/static/js/main.102e24ef.chunk.js",
-    "main.js.map": "/static/js/main.102e24ef.chunk.js.map",
+    "main.js": "/static/js/main.a8ecd163.chunk.js",
+    "main.js.map": "/static/js/main.a8ecd163.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f616cac1.js",
     "runtime-main.js.map": "/static/js/runtime-main.f616cac1.js.map",
-    "static/js/2.546526d5.chunk.js": "/static/js/2.546526d5.chunk.js",
-    "static/js/2.546526d5.chunk.js.map": "/static/js/2.546526d5.chunk.js.map",
+    "static/js/2.530dc8cd.chunk.js": "/static/js/2.530dc8cd.chunk.js",
+    "static/js/2.530dc8cd.chunk.js.map": "/static/js/2.530dc8cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0637bfe676b65a695e36d27509a3593a.js": "/precache-manifest.0637bfe676b65a695e36d27509a3593a.js",
+    "precache-manifest.da17a5da533d2ce6eaa0a5b683f4e40a.js": "/precache-manifest.da17a5da533d2ce6eaa0a5b683f4e40a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a7beee22.chunk.css.map": "/static/css/main.a7beee22.chunk.css.map",
-    "static/js/2.546526d5.chunk.js.LICENSE.txt": "/static/js/2.546526d5.chunk.js.LICENSE.txt",
-    "static/media/Bot-IMG.png": "/static/media/Bot-IMG.93c277e3.png",
-    "static/media/KPMGlogo.png": "/static/media/KPMGlogo.26b69b8e.png"
+    "static/js/2.530dc8cd.chunk.js.LICENSE.txt": "/static/js/2.530dc8cd.chunk.js.LICENSE.txt",
+    "static/media/Bot-IMG.png": "/static/media/Bot-IMG.93c277e3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f616cac1.js",
-    "static/js/2.546526d5.chunk.js",
+    "static/js/2.530dc8cd.chunk.js",
     "static/css/main.a7beee22.chunk.css",
-    "static/js/main.102e24ef.chunk.js"
+    "static/js/main.a8ecd163.chunk.js"
   ]
 }
