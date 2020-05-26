@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c474c528-d8dd-48c8-98ac-cd7ba58468e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.da17a5da533d2ce6eaa0a5b683f4e40a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
       <workItem from="1590134173088" duration="1765000" />
       <workItem from="1590141738588" duration="409000" />
       <workItem from="1590142174199" duration="23346000" />
-      <workItem from="1590478842506" duration="5022000" />
+      <workItem from="1590478842506" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="created avatar;&#10;fixed welcome text;&#10;TODO: validate function">
       <created>1590161778072</created>
@@ -127,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590481735597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed logo, changed font">
+      <created>1590484166754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590484166754</updated>
+    </task>
+    <task id="LOCAL-00007" summary="removed build folder">
+      <created>1590484212592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590484212593</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,13 +160,15 @@
     <MESSAGE value="added build folder" />
     <MESSAGE value="added config file" />
     <MESSAGE value="readded config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="readded config file" />
+    <MESSAGE value="removed logo, changed font" />
+    <MESSAGE value="removed build folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed build folder" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590484165923">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590484211816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484165923" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484211816" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1590091325980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590091338344" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590484174735">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590484219344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484174735" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484219344" />
     <state x="678" y="312" key="git4idea.merge.GitPullDialog" timestamp="1590178201221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
