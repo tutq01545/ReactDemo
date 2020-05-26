@@ -28,10 +28,13 @@ const Home= () => {
     }
 
     const homeButtonStyle = {
-        fontFamily : "Noto Sans CJK",
-        fontSize: 20,
+        fontFamily : "Arial",
+        fontSize: 25,
         marginLeft: 20,
-        color: 'white'        
+        marginTop: 15,
+        marginBottom: 10,
+        color: 'white',
+        textAlign: 'center',
     }
 
 
@@ -44,7 +47,7 @@ const Home= () => {
 
                     <div style={{height: 100}}>
 
-                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D'}}>
+                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D', height: '100'}}>
 
                             <ReactBootStrap.Nav.Item  style={homeButtonStyle}>
                                 KPMG Virtual Assistance
@@ -54,19 +57,7 @@ const Home= () => {
                                 <ReactBootStrap.Nav className="mr-auto">
 
                                 </ReactBootStrap.Nav>
-                                <ReactBootStrap.Nav>
 
-
-                                    <ReactBootStrap.Navbar.Brand>
-                                        <img
-                                            src={logo}
-                                            width="121"
-                                            height="50"
-                                            className="d-inline-block align-top"
-                                            alt=" "                                           
-                                        ></img>
-                                    </ReactBootStrap.Navbar.Brand>
-                                </ReactBootStrap.Nav>
                             </ReactBootStrap.Navbar.Collapse>
                         </ReactBootStrap.Navbar>
 
