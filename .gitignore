@@ -11,6 +11,10 @@
 #build
 /build
 
+#github
+/.github
+/.idea
+
 # misc
 .DS_Store
 .env.local

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c474c528-d8dd-48c8-98ac-cd7ba58468e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1590134173088" duration="1765000" />
       <workItem from="1590141738588" duration="409000" />
       <workItem from="1590142174199" duration="23346000" />
-      <workItem from="1590478842506" duration="5135000" />
+      <workItem from="1590478842506" duration="5243000" />
     </task>
     <task id="LOCAL-00001" summary="created avatar;&#10;fixed welcome text;&#10;TODO: validate function">
       <created>1590161778072</created>
@@ -136,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590484212593</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update git ignore">
+      <created>1590484260457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590484260457</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,13 +170,14 @@
     <MESSAGE value="readded config file" />
     <MESSAGE value="removed logo, changed font" />
     <MESSAGE value="removed build folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed build folder" />
+    <MESSAGE value="update git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590484211816">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1590484259815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484211816" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484259815" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1590091325980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,10 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590091338344" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590484219344">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590484263865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484219344" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590484263865" />
     <state x="678" y="312" key="git4idea.merge.GitPullDialog" timestamp="1590178201221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
