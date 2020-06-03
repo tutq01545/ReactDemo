@@ -32,12 +32,24 @@ const Home= () => {
         fontSize: 20,
         marginLeft: 20,
         color: 'white'        
-    }
+    }	
 
-
+    //First, we will set up our store to use middleware that will dispatch an event whenever an incoming activity is received.
+    const store = window.WebChat.createStore(
+        {},
+        ({ dispatch }) => next => action => {
+          if (action.type === 'DIRECT_LINE/INCOMING_ACTIVITY') {
+            const event = new Event('webchatincomingactivity');
+            event.data = action.payload.activity;
+            window.dispatchEvent(event);
+          }
+    
+          return next(action);
+        }
+    );
 
     return (
-        <Row>
+        <Row>			
             <Col style={{backgroundColor: '#0091DA'}}></Col>
             <Col xl={8} style={{padding: 0}}>
                 <div>
@@ -76,7 +88,8 @@ const Home= () => {
 
                     <div style={{height: 620}}>
                         <ReactWebChat directLine={directLine3} bot={{id: 'bot-id', name: 'bot-name'}}
-                                      user={{id: 'user-id', name: 'user name'}} preSend={sendWelcome()} before={alert()}
+                                      store={store}
+                                      user={{id: 'user-id', name: 'user name'}} preSend={sendWelcome()} before={alert()}								  
                                       resize="detect" styleOptions={styleOptions} />
                     </div>
 
