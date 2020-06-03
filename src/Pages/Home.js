@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../App.css';
 import ReactWebChat from 'botframework-webchat';
-import logo from '../resource/KPMGlogo.png'
 import * as ReactBootStrap from 'react-bootstrap';
 import {createDirectLine} from "botframework-webchat/lib";
 import Row from "react-bootstrap/Row";
@@ -28,10 +27,13 @@ const Home= () => {
     }
 
     const homeButtonStyle = {
-        fontFamily : "Noto Sans CJK",
-        fontSize: 20,
+        fontFamily : "Arial",
+        fontSize: 25,
         marginLeft: 20,
-        color: 'white'        
+        marginTop: 15,
+        marginBottom: 10,
+        color: 'white',
+        textAlign: 'center',    
     }	
 
     //First, we will set up our store to use middleware that will dispatch an event whenever an incoming activity is received.
@@ -56,29 +58,17 @@ const Home= () => {
 
                     <div style={{height: 100}}>
 
-                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D'}}>
+                        <ReactBootStrap.Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#00338D', height: '100'}}>
 
                             <ReactBootStrap.Nav.Item  style={homeButtonStyle}>
-                                KPMG Virtual Assistance
+                                Virtual Assistance
                             </ReactBootStrap.Nav.Item>
                             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                                 <ReactBootStrap.Nav className="mr-auto">
 
                                 </ReactBootStrap.Nav>
-                                <ReactBootStrap.Nav>
 
-
-                                    <ReactBootStrap.Navbar.Brand>
-                                        <img
-                                            src={logo}
-                                            width="121"
-                                            height="50"
-                                            className="d-inline-block align-top"
-                                            alt=" "                                           
-                                        ></img>
-                                    </ReactBootStrap.Navbar.Brand>
-                                </ReactBootStrap.Nav>
                             </ReactBootStrap.Navbar.Collapse>
                         </ReactBootStrap.Navbar>
 
